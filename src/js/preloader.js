@@ -16,6 +16,7 @@
       this.load.setPreloadSprite(this.asset);
       this.load.image('player', 'assets/player.png');
       this.load.image('platform', 'assets/platform1.png');
+      this.load.image('platform', 'assets/powerup.png');
       this.load.bitmapFont('minecraftia', 'assets/minecraftia.png', 'assets/minecraftia.xml');
       console.log("hola");
     },
